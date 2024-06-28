@@ -1,0 +1,38 @@
+
+.market-update-main{
+    width: 100%;
+    height:540px;
+    background-color: thistle;
+}
+
+.market-update-sidenews{
+    width: 100%;
+    height: 110px;
+    background-color: aqua;
+    margin-bottom: 5px;
+}
+
+#news-main-content .card{
+    height: 100%;
+    width: 100%;
+}
+
+#news-main-content .card img{
+    height: 100%;
+}
+
+@media (max-width:960px){
+    .market-update-main{
+        height: 180px;
+    }
+
+    .market-update-sidenews{
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    #news-main-content .col-sm-3{
+        display: flex;
+        margin-top: 5px;
+    }
+}

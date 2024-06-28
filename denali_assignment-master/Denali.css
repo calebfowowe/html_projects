@@ -1,0 +1,146 @@
+.whole-page{
+    background-color: rgb(233, 232, 231);
+}
+
+.top-div{
+    padding-left: 12%    ;
+    padding-right: 13.5%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    margin-bottom: 1%;
+}
+.menu-bar{
+    float: right;
+    color: black;
+    padding-bottom: 2%;
+}
+.icons-content{
+    padding:10px;
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(158, 155, 155);
+}
+.home-button{
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+.middle-div{
+    background-color: rgb(233, 232, 231);
+    display: inline-flex; 
+}
+.mid-left{
+    background-color: white;
+    width: 200px;
+    height: 450px;
+    margin-left: 14%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.frames{
+    padding: 2%;
+    border-radius: 3px;
+}
+.mid-left-image img{
+    width: 135px;
+    height:150px;
+    border-radius: 50%;
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+
+
+.mid-right{
+    width: 890px;
+    height: 990px;
+}
+
+.mid-right-topA{
+    margin-bottom: 3%;
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 7px;
+    padding: 3%;
+}
+
+.mid-right-top-image{
+    height: 150px;
+    display: inline-block;
+}
+.mid-right-top-image img{
+    width: 150px;
+    height:160px;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.mid-right-top-text{
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+    margin-left: 2%;
+    margin-top: -1.5%;
+}
+
+.interval{
+    margin-bottom: 8%;
+}
+
+body{
+    margin: 0%;
+}
+
+#more{
+    display: none;
+}
+
+button{
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    margin-left:5px;
+    text-decoration: underline;
+    color: rgb(163, 163, 163);
+}
+
+.page-break{
+    margin-bottom:7%;
+}
+
+.home-color{
+    color: black;
+}
+
+.mid-left-text3 img{
+    display: inline-block;
+    width:15px;
+    height:15px;
+    padding: 2px;
+}
+
+.mid-left-text4{
+    color: rgb(126, 124, 124);
+    font-size: 14px;
+    padding: 2%;
+}
+.mid-left-text1{
+    color: black;
+    font-size: 15px;
+}
+.mid-left-text2{
+    color: rgb(119, 117, 117);
+    font-size: 13px;
+    
+}
+
+.mid-left-text4-text{
+    color: black;
+    font-size: 18px;
+}
+
+.color-gray{
+    color: rgb(163, 163, 163);
+}
+
