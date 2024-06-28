@@ -1,0 +1,281 @@
+    .whole-page{
+        margin:-8px;
+    }
+
+    .menu-bar{
+        display: flex;
+        background-color: white;
+        position: sticky;
+        top: 0px;
+        height: 75px;
+        z-index: 999999;
+        padding: 20px 50px 0px 50px;
+    }
+
+    .menu-bar-lhs{
+    display: flex;
+    float: left;
+    font-size: 40px;
+    }
+
+    .menu-bar-rhs{
+        display: flex;
+        float: right;
+        color: black;
+        font-size: 25px;
+        padding-left: 325px;
+    }
+
+    .icons-content{
+        padding:10px;
+        font-size: 16px;
+        text-decoration: none;
+        color: rgb(121, 118, 118);
+    }
+
+    .icons-content-b{
+        padding:10px;
+        font-size: 16px;
+        text-decoration: none;
+        color: rgb(121, 118, 118);
+        background-color: black;
+    }
+
+    .box-1{
+        background-image: url(../OPUSGROW/OPUS-IMAGES/mountains-4926084_1920.jpg);
+        height: 600px;
+        display: flex;
+        position: relative;
+    }
+
+    button{
+        background: rgb(165, 68, 68);
+        height: 75px;
+        width: 225px;
+        position: absolute;
+        top: 265px;
+        left: 75px;
+        border: none;
+    }
+
+    button a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+
+    }
+
+    .box-2{
+        background-color: white;
+        height: 300px;
+
+    }
+
+    .box-2-top{
+        font-size: 25px;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .box-2-middle{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .box-2-search{
+        text-align: center;
+    }
+
+    .box-3{
+        background-color: rgb(117, 226, 117);
+        height: 450px;
+        position: relative;
+    }
+
+    .box-3-top{
+        text-align: center;
+        font-size: 35px;
+        padding-top: 70px;
+        color: honeydew;
+    }
+
+    .box-3-middle{
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 25px;
+        padding-top: 2%;
+        padding-bottom: 5%;
+    }
+
+    .box-3-bottom a{
+        text-decoration: none;
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        top:300px;
+        left: 550px;
+        background: rgb(165, 68, 68);
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    .box-4{
+        display: flex;
+        background-image: url(../OPUSGROW/OPUS-IMAGES/landscape-4922432_1920.jpg);
+        height:320px;
+    }
+
+
+    .box-5{
+        display: flex;
+        height: 400px;
+    }
+
+    .box-5-left{
+        flex-direction: column;
+        width: 50%;
+        height:400px;
+        background-color: rgb(172, 92, 172);
+    }
+
+    .box-5-top{
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        color: honeydew;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 120px;
+    }
+
+    .box-5-middle{
+        font-size: 20px;
+        display: flex;
+        position: relative;
+        top: 150px;
+        margin-left: 75px;
+        margin-right: 75px;
+        color: white;
+    }
+
+    .box-5-bottom a{
+        display: flex;
+        text-decoration: none;
+        width: 200px;
+        height: 40px;
+        position: relative;
+        top:170px;
+        left: 160px;
+        background: rgb(165, 68, 68);
+        color: white;
+        font-size: 25px;
+        padding-top: 20px;
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    .box-5-right{
+        width: 50%;
+        height:400px;
+        float: right;
+        background-color: rgb(73, 115, 194);
+    }
+
+    .box-6{
+        display: flex;
+        height: 300px;
+        background-image: url(OPUS-IMAGES/background-box-6.jpg);
+        opacity: 0.80 ;
+    }
+
+    .box-6-left{
+        width: 50%;
+        display: flex;
+    }
+
+    .box-6-left-wrapped{
+        margin-left: 30px;
+        margin-right: 50px;
+        margin-top: 150px;
+    }
+
+    .box-6-right img{
+        float: right;
+        height: 300px;
+    }
+
+    .box-7{
+        height: 300px;
+        background-color: rgb(116, 114, 114);
+    }
+
+    .box-7-top{
+        display: flex;
+        height:225px;
+    }
+    .box-7-top-left{
+        width: 33.3%;  
+        font-size: 40px; 
+        margin-left: 50px;
+        margin-top: 75px;
+        color: white;
+    }
+
+    .box-7-top-middle{
+        width: 33.3%;
+        margin-top: 100px;
+    }
+
+    .box-7-top-middle-text{
+        font-size: 25px;
+        font-family: 'Segoe UI';
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .box-7-top-right{
+        width: 33.3%;
+        display:flex;
+        color: white;
+        margin-top: 60px;
+    }
+
+    .box-7-top-right ul{
+        list-style: none;
+        font-size: 17px;
+        font-family:'Segoe UI';
+    }
+
+    .box-7-bottom{
+        display: flex;
+    }
+
+    .box-7-bottom-left{
+        width:50%
+    }
+
+    .box-7-bottom-left-a{
+        margin-left: 50px;
+        color: white;
+        font-family: 'Gill Sans MT', Calibri, ;
+        font-style: italic;
+    }
+
+    .box-bottom-7-right{
+        width: 50%;
+
+    }
+
+    .social-media-icons{
+        margin-left:300px;
+    }
+
+    .social-media-icons img{
+        widows: 30px;
+        height:30px;
+        margin-right: 20px;
+    }
